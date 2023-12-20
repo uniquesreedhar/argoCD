@@ -17,4 +17,4 @@ spec:
       - image: sreedhar8897/html-server:latest
         name: app-ui
         ports:
-        - containerPort: 5004
+        - containerPort: 80
