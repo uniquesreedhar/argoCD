@@ -4,7 +4,7 @@ metadata:
   name: app-ui-svc
 spec:
   ports:
-  - port: 5004
-    targetPort: 5004
+  - port: 9080
+    targetPort: 80
   selector:
     app: app-ui
