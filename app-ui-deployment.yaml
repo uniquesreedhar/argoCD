@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app-ui
 spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
@@ -14,7 +14,7 @@ spec:
         app: app-ui
     spec:
       containers:
-      - image: shekhar123reddy/ganesh:latest
+      - image: sreedhar8897/html-server:latest
         name: app-ui
         ports:
         - containerPort: 5004
